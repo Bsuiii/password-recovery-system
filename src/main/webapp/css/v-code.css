@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:BEYNO;
+    src: url(../Assets/fonts/BEYNO.ttf);
+}
+body{
+    background-color:azure
+}
+.container {
+    background: white;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:0;
+    width: 40%;
+    box-shadow: 10px 10px 10px  lightgrey;
+}
+
+.form-header {
+    margin:0;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding: 25px;
+    background: black;
+    text-align: center;
+    font-family:BEYNO;
+}
+
+.form-body  {
+    margin:10px    ;
+    text-align: center;
+}
+.form-body span{
+    font-weight:lighter ;
+}
+
+.form-body .code-container ul{
+    margin:10px;
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+ }
+
+.form-body .code-container li input{
+    width: 80px;
+    height:80px;
+    text-align: center;
+    font-size: larger;
+    font-weight:500;
+
+ }
+ .form-body .code-container li input {
+  appearance: textfield;
+}
+
+.form-footer a{
+    color:#1e3050;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+}
+.form-footer a:hover{
+    color:rgb(90,90,90);
+    font-size: 17px;
+    transition: all 1s ease-out;
+}
+.form-footer{
+    margin:10px 10px;
+}
